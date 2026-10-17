@@ -33,7 +33,6 @@ Business Insights 360 is an end-to-end Business Intelligence project developed f
 - [Data Sources](#data-sources)
 - [Data Modeling](#data-modeling)
 - [Dashboard Overview](#dashboard-overview)
-- [Dashboard Screenshots](#dashboard-screenshots)
 - [Key Technical Implementations](#key-technical-implementations)
 - [Domain Knowledge](#domain-knowledge)
 - [Business Impact](#business-impact)
@@ -117,6 +116,7 @@ These datasets provide the foundation for analyzing business performance across 
 **Model Architecture: Snowflake Schema**
 
 The data model integrates fact and dimension tables to support analytical reporting across multiple business dimensions.
+![Data Model](Data%20model.png)
 
 Key modeling activities:
 
@@ -130,7 +130,9 @@ Key modeling activities:
 
 The report includes a centralized Home View with navigation to six functional sections.
 
-### 1. Home View — Centralized Navigation
+### 1. ### Home View
+![Home View](Home.png)
+
 
 Provides a unified entry point to the dashboard.
 
@@ -148,6 +150,7 @@ Provides a unified entry point to the dashboard.
 
 ### 2. Finance View — Financial Performance
 
+
 Provides a comprehensive Profit & Loss view and financial analysis across customers, products, markets, and time.
 
 **Key capabilities:**
@@ -159,6 +162,7 @@ Provides a comprehensive Profit & Loss view and financial analysis across custom
 - Market-level financial analysis.
 
 **Business purpose:** Helps stakeholders understand financial performance, evaluate profitability, and investigate areas requiring attention.
+![Finance View](Finance.png)
 
 ### 3. Sales View — Customer Performance
 
@@ -177,6 +181,7 @@ Focuses on customer-level sales and profitability.
 - Identification of customers with weaker gross margin performance.
 
 **Business purpose:** Supports customer-level analysis and helps identify opportunities to improve profitability.
+![Sales View](Sales.png)
 
 ### 4. Marketing View — Product and Market Analysis
 
@@ -197,6 +202,7 @@ Provides a product-focused view of commercial performance and profitability.
 
 **Business purpose:** Helps stakeholders evaluate product performance and identify areas for further commercial investigation.
 
+
 ### 5. Supply Chain View — Forecast and Planning Analysis
 
 Focuses on forecast accuracy and differences between forecasted and actual demand.
@@ -210,6 +216,7 @@ Focuses on forecast accuracy and differences between forecasted and actual deman
 - Identification of potential planning gaps.
 
 **Business purpose:** Provides visibility into forecasting performance and supports demand-planning analysis.
+![Supply Chain View](Supply%20chain.png)
 
 ### 6. Executive View — Strategic Business Overview
 
@@ -223,7 +230,7 @@ Consolidates key business KPIs for executive-level analysis.
 - Cross-functional business visibility.
 
 **Business purpose:** Helps leadership assess business performance, identify areas requiring attention, and support strategic planning.
-
+![Executive View](Executive.png)
 
 ## Key Technical Implementations
 
@@ -300,11 +307,10 @@ Explore the published report and navigate through its different dashboard views.
 
 ### Power BI File
 
-**[Download BI_360 - Report.pbix](ADD_YOUR_PBIX_DOWNLOAD_LINK)**
+**[Download BI_360 - Report.pbix](https://drive.google.com/file/d/1fwyBtr4adQJkfIRUPNWqpFIhFqQjrYHA/view?usp=sharing)**
 
-Replace the placeholder above with your actual PBIX download URL if you intend to share the file.
-
-> **Note:** The published report is intended for demonstration purposes. Do not upload sensitive or proprietary information through public sharing methods.
+### Video Representation
+**[watch video representation](https://drive.google.com/file/d/1oHdVw17GOs2tdu9OzZB6LpvC_jB0Gfkq/view?usp=sharing)
 
 ## Acknowledgements
 
@@ -323,8 +329,6 @@ Special thanks to the Codebasics team for creating a practical, business-oriente
 | Primary Tool | Microsoft Power BI |
 | Technologies | SQL, Excel, Power Query, DAX, DAX Studio |
 | Data Model | Snowflake Schema |
-| Learning Resource | Codebasics Power BI Data Analytics Course |
 
-If you find this project interesting, feel free to explore the interactive report and share your feedback.
 
 **Turning data into insights. Turning insights into better decisions.**
